@@ -5,7 +5,7 @@
   "scripts": {
     "build": "npm run check && rollup -c",
     "dev": "npm run check && rollup -c -w",
-    "start": "sirv public --no-clear",
+    "start": "sirv public -s --no-clear",
     "check": "svelte-check --tsconfig ./tsconfig.json"
   },
   "devDependencies": {
